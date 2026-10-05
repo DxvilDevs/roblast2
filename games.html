@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#08080a" />
+  <meta name="description" content="RoBlast games on Roblox." />
+  <title>Our Games — RoBlast</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="icon" href="roblast-favicon.png" type="image/png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="site-header is-static">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="RoBlast home"><img class="brand-logo" src="roblast-logo.png" alt="RoBlast" /></a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link active" href="games.html">Our Games</a>
+        <a class="nav-link" href="index.html#about">About Us</a>
+        <a class="nav-link" href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container narrow">
+        <span class="kicker">ROBLAST CATALOGUE</span>
+        <h1>ALL GAMES</h1>
+        <p>Explore our current collection of Roblox experiences. We're always looking for the next idea worth building.</p>
+      </div>
+    </section>
+
+    <section class="section section-dark page-games">
+      <div class="container">
+<div class="games-grid games-grid-wide" id="catalogue-grid"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid"><div class="footer-brand"><img class="footer-logo" src="roblast-logo.png" alt="RoBlast" /></div><div class="footer-tag">Building fresh games and chasing the next big idea on Roblox.</div><div class="footer-links"><a href="index.html">Home</a><a href="games.html">Our Games</a><a href="index.html#about">About Us</a><a href="index.html#contact">Contact</a></div></div>
+    <div class="container footer-bottom"><span>© <span id="year"></span> RoBlast. All rights reserved.</span><span>Made for Roblox.</span></div>
+  </footer>
+  <script src="games-data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
